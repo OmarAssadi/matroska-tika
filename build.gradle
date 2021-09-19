@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.omarassadi'
+version '1.0.0-SNAPSHOT'
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.apache.tika:tika-core:2.1.0'
+    implementation 'com.google.guava:guava:30.1.1-jre'
+}
